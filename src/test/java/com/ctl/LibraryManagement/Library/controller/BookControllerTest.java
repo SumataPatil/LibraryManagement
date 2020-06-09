@@ -36,7 +36,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RunWith(MockitoJUnitRunner.class)
 @SpringBootTest
-public class BookControllerTest {
+ class BookControllerTest {
 	
 	
 	@Mock
