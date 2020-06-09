@@ -27,7 +27,7 @@ echo 'hiii'
       stage('SonarQube analysis') {
           steps {
      withSonarQubeEnv('LocalSonar') {
-     bat 'C:/Softwares/sonar-scanner-4.3.0.2102-windows/bin/sonar-scanner'
+     bat 'C:/Softwares/sonar-scanner-4.3.0.2102-windows/bin/sonar-scanner -X'
       
      
         
