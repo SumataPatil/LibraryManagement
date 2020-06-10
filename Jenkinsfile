@@ -74,6 +74,15 @@ echo 'hiii'
 
             // To run Maven on a Windows agent, use
              bat "mvn  clean test"
+
+ publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportDir: 'target/site/jacoco',
+            reportFiles: 'index.html',
+            reportName: 'RCov Report'
+          ]
          }
 
          
